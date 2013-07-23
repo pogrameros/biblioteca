@@ -19,6 +19,7 @@ type
     pop_locacoes: TPopupMenu;
     SaidadeLivros1: TMenuItem;
     DevoluodeLivros1: TMenuItem;
+    Label1: TLabel;
     procedure FormShow(Sender: TObject);
     procedure SaidadeLivros1Click(Sender: TObject);
   private

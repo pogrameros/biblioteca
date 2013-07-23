@@ -16,12 +16,19 @@ object frm_menu: Tfrm_menu
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
+  object Label1: TLabel
+    Left = 176
+    Top = 88
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
   object PageControl1: TPageControl
     Left = 0
     Top = 0
     Width = 1127
     Height = 55
-    ActivePage = TabSheet2
+    ActivePage = TabSheet1
     Align = alTop
     TabOrder = 0
     object TabSheet1: TTabSheet
